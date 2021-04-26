@@ -1,0 +1,745 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+:root{
+    background-attachment: scroll;
+    
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    background: rgb(0, 79, 250);
+    height: 37.5em;
+}
+.header__nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.header__nav a{
+    padding: 0 0.6em;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.header__nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.text{
+    position: absolute;
+    top: 10.6em;
+    left: 4.7em;
+    width: 35%;
+    color: #fff;
+}
+.text h1{
+    font-size: 2.5em;
+
+}
+.text h2{
+    font-size: 1.6em;
+    padding-top: 0.6em;
+}
+.buttons{
+    position: absolute;
+    top: 14.6em;
+    left: 3.7em;
+    width: 11em;
+    height: 3.5em;
+    border-radius: 5px  ;
+    border: 1px solid #fff;
+    background:rgb(0, 79, 250) ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons:hover{
+    background: #fff;
+    color: #000;
+}
+
+.buttons:active{
+    background: #fff;
+    color: #000;
+}
+
+
+
+.wave{
+   position: relative;
+   top: 26.7em;
+   background: rgb(0, 79, 250);
+}
+
+/*informacion de mi*/
+.user__img{
+    width: 6.2em;
+    height: 6.2em;
+    border-radius: 50px;
+    margin-left: 75px;
+}
+.user>div{
+    width: 75%;
+}
+
+.user{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 75px;
+   
+    
+}
+/*.myuser{
+   position: relative;
+   bottom: 50px;
+   left: 200px;
+   
+}*/
+.kills{
+    position: relative;
+    left: 12.5em;
+}
+.title__h2__one{
+    position: relative;
+    bottom: 5em;
+    right: 12.5em;
+}
+.title__h2__two{
+    position: relative;
+    bottom: 5em;
+    left: 25em;
+}
+
+.raya{
+    width: 80%;
+    height: 0.2em;
+    background: rgb(163, 163, 163);
+    border-radius: 3px;
+    margin-left:7.8em;
+    margin-top: 3.1em;
+}
+
+.content__port{
+    position: relative;
+    top: 5em;
+    left: 25.1em;
+    width: 65%;
+    
+    
+    
+}
+.h2__content__port{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 80px;
+}
+
+.content__port__img{
+    width: 15.6em;
+    height: 9.3em;
+    margin: 0.9em 1.2em;
+    
+}
+
+/*footer*/
+
+.footer{
+    background: rgb(0, 79, 250);
+    margin-top:5em;
+    color: #fff;
+    padding: 3.1em;
+    font-family: Helvetica, sans-serif;
+    
+    
+}
+
+.footer__content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button__contact{
+    background:rgb(0, 79, 250);
+    padding: 10px ;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+.button__contact:hover{
+    background: #fff;
+    color: #000;
+}
+
+.contact__button{
+    position: relative;
+    left: 40.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: -1;
+
+}
+
+.active__network{
+    position: relative;
+    left: 50.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: 10;
+}
+
+@media screen and (max-width:1246px) and (min-width:1000px) {
+
+
+    header{
+    width: 100%;
+    overflow: hidden;
+}
+
+.text{
+    position: absolute;
+    top: 10.6em;
+    left: 4.6em;
+    width: 35%;
+    color: #fff;
+}
+.text h1{
+    font-size: 2.5em;
+
+}
+.text h2{
+    font-size: 1.6em;
+    padding-top: 0.6em;
+}
+.buttons{
+    position: absolute;
+    top: 25.2em;
+    left: 5em;
+    width: 8.5em;
+    height: 3.5em;
+    border-radius: 5px  ;
+    border: 1px solid #fff;
+    background:rgb(0, 79, 250) ;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.wave{
+    position: relative;
+    top: 26.7em;
+    background: rgb(0, 79, 250);
+ }
+.raya{
+    width:70%;
+    height: 0.2em;
+    background: rgb(163, 163, 163);
+    border-radius: 3px;
+    margin-left:7.8em;
+    margin-top: 3.1em;
+}
+
+.content__port{
+    position: relative;
+    top: 5em;
+    left: 13.1em;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    
+}
+.h2__content__port{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: auto;
+    bottom: -3em;
+}
+
+.content__port__img{
+    width: 15.6em;
+    height: 9.3em;
+    margin: 0.9em 1.2em;
+    
+}
+
+
+}
+
+@media screen and (max-width:1000px) and (min-width:720px) {
+    header{width: 98em;}
+
+
+.text{
+    position: absolute;
+    top: 3.6em;
+    left: 3em;
+    width: 75%;
+    color: #fff;
+}
+.text h1{
+    font-size: 3.1em;
+
+}
+.text h2{
+    font-size: 2.1em;
+    padding-top: 0.6em;
+}
+.buttons{
+    position: absolute;
+    top: 15.2em;
+    left: 3em;
+    width: 10.5em;
+    height: 3.5em;
+    border-radius: 5px  ;
+    border: 1px solid #fff;
+    background:rgb(0, 79, 250) ;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.user__img{
+    width: 6.2em;
+    height: 6.2em;
+    border-radius: 50px;
+    margin-left: 75px;
+}
+
+
+.user{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100% ;
+  
+}
+.user__kills{
+    position: relative;
+    left: 30em;
+}
+
+.wave{
+    position: relative;
+    top: 26.7em;
+    background: rgb(0, 79, 250);
+ }
+
+.raya{
+    width: 77em;
+}
+
+
+.content__port{
+    position: relative;
+    top: 5em;
+    left: 25.1em;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.h2__content__port{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 80px;
+    left: 11em;
+}
+
+/*footer*/
+
+.footer{
+    background: rgb(0, 79, 250);
+    margin-top:5em;
+    color: #fff;
+    padding: 3.1em;
+    font-family: Helvetica, sans-serif;
+    width: 98em;
+    
+    
+}
+
+.footer__content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button__contact{
+    background:rgb(0, 79, 250);
+    padding: 10px ;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+
+.contact__button{
+    position: relative;
+    left: 30.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: -1;
+
+}
+
+.active__network{
+    position: relative;
+    left: 46.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: 10;
+}
+
+}
+@media screen and (max-width:720px) and (min-width:480px) {
+    header{
+        width: 90em;
+        overflow: hidden;}
+
+        .header__nav{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 30px;}
+                      
+            .text{
+                position: absolute;
+                top: 7.6em;
+                left: 23em;
+                width: 50em;
+                color: #fff;
+            }
+            .text h1{
+                font-size: 3.5em;
+            
+            }
+            .text h2{
+                font-size: 2.6em;
+                padding-top: 0.6em;
+            }
+    
+            .buttons{
+                position: absolute;
+                top: 21.2em;
+                left: 40em;
+                width: 15em;
+                height: 5em;
+                border-radius: 5px  ;
+                border: 1px solid #fff;
+                background:rgb(0, 79, 250) ;
+                text-decoration: none;
+                font-size: 0.9em;
+                color: #fff;
+                cursor: pointer;
+                outline: none;
+            }
+            
+              
+            .user__img{
+                width: 6.2em;
+                height: 6.2em;
+                border-radius: 50px;
+                margin-left: 210px;
+            }
+            
+            .user{
+                position: relative;
+                left: 8em;
+                width: 150%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .user__kills{
+                position: relative;
+                left: 18em;}
+               /*PORTAFOLIO*/
+
+               .wave{
+                position: relative;
+                top: 26.8em;
+                background: rgb(0, 79, 250);
+             }
+
+
+               .raya{
+                position: relative;
+                left: 6em;
+                width: 55em;
+            }
+            
+               
+            .content__port{
+                position: relative;
+                top: 5em;
+                left: 25.1em;
+                width: 65%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            
+            }
+                
+                
+            .h2__content__port{
+                text-align: center;
+                font-size: 1.8em;
+                font-family: Helvetica, sans-serif;
+                position: relative;
+                top: 3em;
+                left: 11.8em;
+            }
+            
+            .content__port__img{
+                width: 15.6em;
+                height: 9.3em;
+                margin: 0.9em 1.2em;
+                
+            }
+
+/*footer*/
+.footer{
+    background: rgb(0, 79, 250);
+    margin-top:5em;
+    color: #fff;
+    padding: 3.1em;
+    font-family: Helvetica, sans-serif;
+    width: 91em;
+    
+    
+}
+
+.footer__content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button__contact{
+    background:rgb(0, 79, 250);
+    padding: 10px ;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.active__network{
+    position: relative;
+    left: 43.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: 10;
+}
+
+            }
+        
+@media screen and (max-width:480px) and (min-width:360px) {
+
+    header{
+        width: 90em;
+        overflow: hidden;}
+
+        .header__nav{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 30px;}
+                      
+            .text{
+                position: absolute;
+                top: 7.6em;
+                left: 23em;
+                width: 50em;
+                color: #fff;
+            }
+            .text h1{
+                font-size: 3.5em;
+            
+            }
+            .text h2{
+                font-size: 2.6em;
+                padding-top: 0.6em;
+            }
+    
+            .buttons{
+                position: absolute;
+                top: 21.2em;
+                left: 40em;
+                width: 15em;
+                height: 5em;
+                border-radius: 5px  ;
+                border: 1px solid #fff;
+                background:rgb(0, 79, 250) ;
+                text-decoration: none;
+                font-size: 0.9em;
+                color: #fff;
+                cursor: pointer;
+                outline: none;
+            }
+            
+              
+            .user__img{
+                width: 6.2em;
+                height: 6.2em;
+                border-radius: 50px;
+                margin-left: 210px;
+            }
+            
+            .user{
+                position: relative;
+                left: 8em;
+                width: 150%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .user__kills{
+                position: relative;
+                left: 18em;}
+
+                .wave{
+                    position: relative;
+                    top: 26.7em;
+                    background: rgb(0, 79, 250);
+                 }
+
+               /*PORTAFOLIO*/
+               .raya{
+                   position: relative;
+                   left: 6em;
+                   width: 55em;
+               }
+               
+
+            
+            .content__port{
+                position: relative;
+                top: 5em;
+                left: 25.1em;
+                width: 65%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            
+            }
+                
+                
+            .h2__content__port{
+                text-align: center;
+                font-size: 1.8em;
+                font-family: Helvetica, sans-serif;
+                position: relative;
+                top: 80px;
+                left: 18.1em;
+            }
+            
+            .content__port__img{
+                width: 15.6em;
+                height: 9.3em;
+                margin: 0.9em 1.2em;
+                
+            }
+
+/*footer*/
+.footer{
+    background: rgb(0, 79, 250);
+    margin-top:5em;
+    color: #fff;
+    padding: 3.1em;
+    font-family: Helvetica, sans-serif;
+    width: 91em;
+    
+    
+}
+
+.footer__content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button__contact{
+    background:rgb(0, 79, 250);
+    padding: 10px ;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.active__network{
+    position: relative;
+    left: 43.2em;
+    top: 16.8em;
+    width: 5em;
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    z-index: 10;
+}
+
+}
+
+
